@@ -1,0 +1,394 @@
+{
+  "stats": {
+    "totalWallets": 402576,
+    "alertsToday": 9,
+    "avgScore": 24.73,
+    "totalTrades": 11648738,
+    "droppedTrades": 0,
+    "totalProcessed": 113445,
+    "skippedByPreScore": 17167,
+    "batchModeActivations": 0,
+    "uptimeSeconds": 27842,
+    "tradesPerMinute": 244.48,
+    "queueSize": 0,
+    "scoringQueueSize": 0,
+    "scoringDropped": 0,
+    "scoringBackpressureSkips": 0,
+    "scoringConfig": {
+      "loopIntervalMs": 250,
+      "walletsPerTick": 10,
+      "tickBudgetMs": 200,
+      "dbPendingSoftLimit": 25
+    },
+    "v42HotPath": {
+      "minAlertAmount": 1000,
+      "scored": 4642,
+      "skippedByAmount": 24726
+    },
+    "tokenResolver": {
+      "enqueued": 2682,
+      "dropped": 0,
+      "resolved": 2641,
+      "unresolved": 1,
+      "failed": 40,
+      "rateLimited": 0,
+      "suppressed": 15,
+      "tradeRowsRemapped": 2973,
+      "queueSize": 0,
+      "inFlight": 0,
+      "active": 0,
+      "positiveCacheSize": 508052,
+      "negativeCacheSize": 25,
+      "rateLimitBackoffMs": 0
+    },
+    "topScoringWallets": [
+      {
+        "wallet": "0x838b820e3B4D993dbF2225f94230f77c8e105Eb1",
+        "riskScore": 100
+      },
+      {
+        "wallet": "0xf7cC0E97729Bbf59AA9B5411eB4F9F24F43DdBEe",
+        "riskScore": 100
+      },
+      {
+        "wallet": "0x2feC96867a620014C34d167a2cdaB3d700C4E102",
+        "riskScore": 100
+      },
+      {
+        "wallet": "0xC0983B3FDa920bD225D4B7C65643f81ECe0F7E69",
+        "riskScore": 100
+      },
+      {
+        "wallet": "0x44ADD0da0530C1546Cd740faf47eE29F6Ee58186",
+        "riskScore": 100
+      }
+    ],
+    "timestamp": "2026-06-12T00:17:24.081Z",
+    "dbWorker": {
+      "workerAlive": true,
+      "pendingRequests": 0,
+      "pendingOldest": [],
+      "pendingNewest": [],
+      "requestTimeoutMs": 30000,
+      "restartAttempts": 0,
+      "shuttingDown": false
+    },
+    "cacheSource": "history",
+    "cached": true,
+    "stale": false,
+    "partial": false,
+    "cacheAgeMs": 42794
+  },
+  "alerts": [
+    {
+      "id": 15062,
+      "wallet": "0x1cB3B50A24133aB2A5F88A9730422385F5892176",
+      "username": "jamesboy",
+      "profileUrl": "https://polymarket.com/profile/jamesboy",
+      "market": "US x Iran permanent peace deal by June 15, 2026?",
+      "marketResolved": true,
+      "outcome": "Yes",
+      "riskScore": 67,
+      "tier": "warning",
+      "signals": [
+        "Category-adjusted bet size: 100 (geopolitical)",
+        "Notable bet ($1.1K) in geopolitical",
+        "Payoff asymmetry 8:1 (score 50)",
+        "Very high conviction (4 trades, $10.8K)",
+        "Long-shot bet at 13%",
+        "YES on unlikely geopolitical event (13%)",
+        "New wallet (0h old)",
+        "High concentration (100% in one market)",
+        "Recently funded",
+        "High payoff asymmetry (score 50)",
+        "Category: geopolitical (1.2x)",
+        "Maturity: 1.00x"
+      ],
+      "betAmount": 1112.6178,
+      "betSide": "YES",
+      "betPrice": 0.126,
+      "walletAge": "2026-06-11T22:56:00.910Z",
+      "walletTrades": 4,
+      "walletVolume": 12997.645709,
+      "walletRiskScore": 67,
+      "timestamp": "2026-06-11T22:56:01.949Z",
+      "tradeTimestamp": "2026-06-11T22:56:00.087Z"
+    },
+    {
+      "id": 15061,
+      "wallet": "0x7e3ba7dF0CFB7D4Ee3Fc83864b64dE2f6cdA5d31",
+      "username": "nikkachu",
+      "profileUrl": "https://polymarket.com/profile/nikkachu",
+      "market": "SpaceX IPO closing market cap above $2.8T?",
+      "marketResolved": true,
+      "outcome": "Yes",
+      "riskScore": 74,
+      "tier": "warning",
+      "signals": [
+        "Category-adjusted bet size: 100 (financial)",
+        "Notable bet ($3.7K) in financial",
+        "Payoff asymmetry 9:1 (score 50)",
+        "Moderate conviction ($1.2K avg/trade)",
+        "Long-shot bet at 11%",
+        "High payoff asymmetry (score 50)",
+        "Category: financial (1.5x)",
+        "Maturity: 1.00x"
+      ],
+      "betAmount": 3659.81,
+      "betSide": "NO",
+      "betPrice": 0.11,
+      "walletAge": "2026-05-31T07:25:55.710Z",
+      "walletTrades": 20,
+      "walletVolume": 44237.833300000006,
+      "walletRiskScore": 47,
+      "timestamp": "2026-06-11T22:50:24.477Z",
+      "tradeTimestamp": "2026-06-11T22:50:22.274Z"
+    },
+    {
+      "id": 15060,
+      "wallet": "0xeaf1F496c53833900F9300933E7b8Ae21a263fBF",
+      "username": "AheadoftheMob",
+      "profileUrl": "https://polymarket.com/profile/AheadoftheMob",
+      "market": "US x Iran permanent peace deal by June 15, 2026?",
+      "marketResolved": true,
+      "outcome": "Yes",
+      "riskScore": 67,
+      "tier": "warning",
+      "signals": [
+        "Category-adjusted bet size: 100 (geopolitical)",
+        "Notable bet ($2.6K) in geopolitical",
+        "Payoff asymmetry 8:1 (score 50)",
+        "High conviction (4 trades, $3.7K)",
+        "Long-shot bet at 12%",
+        "YES on unlikely geopolitical event (12%)",
+        "New wallet (0h old)",
+        "High concentration (100% in one market)",
+        "Recently funded",
+        "High payoff asymmetry (score 50)",
+        "Category: geopolitical (1.2x)",
+        "Maturity: 1.00x"
+      ],
+      "betAmount": 2638.5816,
+      "betSide": "YES",
+      "betPrice": 0.12,
+      "walletAge": "2026-06-11T20:56:22.353Z",
+      "walletTrades": 4,
+      "walletVolume": 24706.02286,
+      "walletRiskScore": 67,
+      "timestamp": "2026-06-11T20:56:24.655Z",
+      "tradeTimestamp": "2026-06-11T20:56:16.591Z"
+    },
+    {
+      "id": 15040,
+      "wallet": "0x838b820e3B4D993dbF2225f94230f77c8e105Eb1",
+      "username": "0x838b820e3B4D993dbF2225f94230f77c8e105Eb1-1774146833898",
+      "profileUrl": "https://polymarket.com/profile/0x838b820e3B4D993dbF2225f94230f77c8e105Eb1-1774146833898",
+      "market": "AUTONOMOUS_REVIEW",
+      "marketResolved": false,
+      "outcome": null,
+      "riskScore": 100,
+      "tier": "critical",
+      "signals": {
+        "type": "autonomous_analysis",
+        "signals": [
+          {
+            "type": "SUSPICIOUS_WIN_RATE",
+            "detail": "86% win rate on $10,842.19 volume"
+          }
+        ],
+        "trend": "STABLE"
+      },
+      "betAmount": null,
+      "betSide": null,
+      "betPrice": null,
+      "walletAge": "2026-03-27T21:51:32.847Z",
+      "walletTrades": 47,
+      "walletVolume": 10842.185970000002,
+      "walletRiskScore": 100,
+      "timestamp": "2026-06-11T19:18:15.542Z",
+      "tradeTimestamp": null
+    },
+    {
+      "id": 15041,
+      "wallet": "0xf7cC0E97729Bbf59AA9B5411eB4F9F24F43DdBEe",
+      "username": "PrimeSeeker8903",
+      "profileUrl": "https://polymarket.com/profile/PrimeSeeker8903",
+      "market": "AUTONOMOUS_REVIEW",
+      "marketResolved": false,
+      "outcome": null,
+      "riskScore": 100,
+      "tier": "critical",
+      "signals": {
+        "type": "autonomous_analysis",
+        "signals": [],
+        "trend": "STABLE"
+      },
+      "betAmount": null,
+      "betSide": null,
+      "betPrice": null,
+      "walletAge": "2026-03-25T15:23:01.254Z",
+      "walletTrades": 7,
+      "walletVolume": 1696.1119700000002,
+      "walletRiskScore": 100,
+      "timestamp": "2026-06-11T19:18:15.542Z",
+      "tradeTimestamp": null
+    },
+    {
+      "id": 15042,
+      "wallet": "0x2feC96867a620014C34d167a2cdaB3d700C4E102",
+      "username": "fatemakhatunfr2",
+      "profileUrl": "https://polymarket.com/profile/fatemakhatunfr2",
+      "market": "AUTONOMOUS_REVIEW",
+      "marketResolved": false,
+      "outcome": null,
+      "riskScore": 100,
+      "tier": "critical",
+      "signals": {
+        "type": "autonomous_analysis",
+        "signals": [
+          {
+            "type": "CONCENTRATED_BETS",
+            "detail": "87% in one market"
+          },
+          {
+            "type": "SUSPICIOUS_WIN_RATE",
+            "detail": "100% win rate on $7,267.39 volume"
+          }
+        ],
+        "trend": "STABLE"
+      },
+      "betAmount": null,
+      "betSide": null,
+      "betPrice": null,
+      "walletAge": "2026-03-24T10:11:25.939Z",
+      "walletTrades": 29,
+      "walletVolume": 7267.386768999999,
+      "walletRiskScore": 100,
+      "timestamp": "2026-06-11T19:18:15.542Z",
+      "tradeTimestamp": null
+    }
+  ],
+  "wallets": [
+    {
+      "address": "0x838b820e3B4D993dbF2225f94230f77c8e105Eb1",
+      "first_seen": "2026-03-27T21:51:32.847Z",
+      "last_seen": "2026-03-29T22:19:12.767Z",
+      "total_trades": 0,
+      "total_volume": 10842.185970000002,
+      "risk_score": 100,
+      "cluster_id": null,
+      "profile_json": "{\"address\":\"0x838b820e3B4D993dbF2225f94230f77c8e105Eb1\",\"ageMs\":174456140,\"ageHours\":48.46003888888889,\"totalTrades\":47,\"totalVolume\":10192.58597,\"concentration\":0.049055264431583694,\"uniqueMarkets\":25,\"firstSeen\":\"2026-03-27T21:51:32.847Z\",\"lastSeen\":\"2026-03-29T22:19:08.960Z\",\"firstBetLargest\":false,\"firstBetAmount\":107,\"largestBetAmount\":250,\"username\":\"0x838b820e3B4D993dbF2225f94230f77c8e105Eb1-1774146833898\",\"pseudonym\":\"Virtuous-Birch\",\"xUsername\":null,\"verified\":false,\"bio\":null,\"profileImage\":null,\"proxyWallet\":\"0x838b820e3b4d993dbf2225f94230f77c8e105eb1\",\"profileCreatedAt\":\"2026-03-22T02:34:00.223457Z\",\"resolvedAt\":\"2026-04-13T13:01:11.246Z\"}",
+      "funding_source": null,
+      "validated_insider": 1,
+      "username": "0x838b820e3B4D993dbF2225f94230f77c8e105Eb1-1774146833898",
+      "profileUrl": "https://polymarket.com/profile/0x838b820e3B4D993dbF2225f94230f77c8e105Eb1-1774146833898",
+      "winRate": 0.8571428571428571,
+      "wins": 6,
+      "totalResolved": 7,
+      "consecutiveWins": 0,
+      "totalProfit": 1134093.5
+    },
+    {
+      "address": "0xf7cC0E97729Bbf59AA9B5411eB4F9F24F43DdBEe",
+      "first_seen": "2026-03-25T15:23:01.254Z",
+      "last_seen": "2026-04-27T02:16:13.840Z",
+      "total_trades": 0,
+      "total_volume": 1696.1119700000002,
+      "risk_score": 100,
+      "cluster_id": null,
+      "profile_json": "{\"address\":\"0xf7cC0E97729Bbf59AA9B5411eB4F9F24F43DdBEe\",\"ageMs\":2803992586,\"ageHours\":778.8868294444444,\"totalTrades\":7,\"totalVolume\":736.489999,\"totalDeposits\":736.489999,\"concentration\":0.30056076837507745,\"uniqueMarkets\":4,\"firstSeen\":\"2026-03-25T15:23:01.254Z\",\"lastSeen\":\"2026-04-27T02:16:13.794Z\",\"firstBetLargest\":true,\"firstBetAmount\":110.85,\"largestBetAmount\":111.947482,\"username\":\"PrimeSeeker8903\",\"pseudonym\":\"Grown-Port\",\"xUsername\":null,\"verified\":false,\"bio\":null,\"profileImage\":null,\"proxyWallet\":\"0xf7cc0e97729bbf59aa9b5411eb4f9f24f43ddbee\",\"profileCreatedAt\":\"2026-01-29T09:58:39.371253Z\",\"resolvedAt\":\"2026-05-04T01:01:05.346Z\"}",
+      "funding_source": null,
+      "validated_insider": 1,
+      "username": "PrimeSeeker8903",
+      "profileUrl": "https://polymarket.com/profile/PrimeSeeker8903",
+      "winRate": 1,
+      "wins": 5,
+      "totalResolved": 5,
+      "consecutiveWins": 5,
+      "totalProfit": 110391.99224925089
+    },
+    {
+      "address": "0x2feC96867a620014C34d167a2cdaB3d700C4E102",
+      "first_seen": "2026-03-24T10:11:25.939Z",
+      "last_seen": "2026-05-25T22:38:07.812Z",
+      "total_trades": 0,
+      "total_volume": 7267.386768999999,
+      "risk_score": 100,
+      "cluster_id": null,
+      "profile_json": "{\"address\":\"0x2feC96867a620014C34d167a2cdaB3d700C4E102\",\"ageMs\":5401601873,\"ageHours\":1500.4449647222223,\"totalTrades\":29,\"totalVolume\":5734.5203950000005,\"totalDeposits\":5734.5203950000005,\"concentration\":0.07848001070715523,\"uniqueMarkets\":27,\"firstSeen\":\"2026-03-24T10:11:25.939Z\",\"lastSeen\":\"2026-05-25T22:38:07.755Z\",\"firstBetLargest\":false,\"firstBetAmount\":179.16,\"largestBetAmount\":233.23,\"username\":\"fatemakhatunfr2\",\"pseudonym\":\"Pessimistic-Contrast\",\"xUsername\":null,\"verified\":false,\"bio\":null,\"profileImage\":null,\"proxyWallet\":\"0x2fec96867a620014c34d167a2cdab3d700c4e102\",\"profileCreatedAt\":\"2026-02-15T00:52:06.295019Z\",\"resolvedAt\":\"2026-05-26T01:00:29.659Z\"}",
+      "funding_source": null,
+      "validated_insider": 1,
+      "username": "fatemakhatunfr2",
+      "profileUrl": "https://polymarket.com/profile/fatemakhatunfr2",
+      "winRate": 1,
+      "wins": 5,
+      "totalResolved": 5,
+      "consecutiveWins": 5,
+      "totalProfit": 289205.80675475637
+    },
+    {
+      "address": "0xC0983B3FDa920bD225D4B7C65643f81ECe0F7E69",
+      "first_seen": "2026-03-20T20:26:37.432Z",
+      "last_seen": "2026-03-21T01:22:31.473Z",
+      "total_trades": 0,
+      "total_volume": 916.075187,
+      "risk_score": 100,
+      "cluster_id": null,
+      "profile_json": "{\"address\":\"0xC0983B3FDa920bD225D4B7C65643f81ECe0F7E69\",\"ageMs\":17754041,\"ageHours\":4.9316780555555555,\"totalTrades\":5,\"totalVolume\":916.075187,\"concentration\":0.32844336826252235,\"uniqueMarkets\":5,\"firstSeen\":\"2026-03-20T20:26:37.432Z\",\"lastSeen\":\"2026-03-21T01:22:30.875Z\",\"firstBetLargest\":false,\"firstBetAmount\":148.571428,\"largestBetAmount\":300.87882,\"username\":\"hubahuba1010\",\"pseudonym\":\"Improbable-Lumberman\",\"xUsername\":null,\"verified\":false,\"bio\":null,\"profileImage\":null,\"proxyWallet\":\"0xc0983b3fda920bd225d4b7c65643f81ece0f7e69\",\"profileCreatedAt\":\"2026-03-20T16:46:52.951135Z\",\"resolvedAt\":\"2026-03-23T07:26:07.928Z\"}",
+      "funding_source": null,
+      "validated_insider": 1,
+      "username": "chubihubi13",
+      "profileUrl": "https://polymarket.com/profile/chubihubi13",
+      "winRate": 1,
+      "wins": 5,
+      "totalResolved": 5,
+      "consecutiveWins": 5,
+      "totalProfit": 380.50115700000003
+    },
+    {
+      "address": "0x44ADD0da0530C1546Cd740faf47eE29F6Ee58186",
+      "first_seen": "2026-03-20T09:40:48.512Z",
+      "last_seen": "2026-06-11T09:20:46.769Z",
+      "total_trades": 0,
+      "total_volume": 24451.483609000006,
+      "risk_score": 100,
+      "cluster_id": null,
+      "profile_json": "{\"address\":\"0x44ADD0da0530C1546Cd740faf47eE29F6Ee58186\",\"ageMs\":7169998256,\"ageHours\":1991.6661822222222,\"totalTrades\":18,\"totalVolume\":3731.0186,\"totalDeposits\":3731.0186,\"concentration\":0.1855809563640342,\"uniqueMarkets\":16,\"firstSeen\":\"2026-03-20T09:40:48.512Z\",\"lastSeen\":\"2026-06-11T09:20:46.705Z\",\"firstBetLargest\":false,\"firstBetAmount\":134.442,\"largestBetAmount\":692.406,\"username\":\"1386\",\"pseudonym\":\"Famous-Mapping\",\"xUsername\":null,\"verified\":false,\"bio\":null,\"profileImage\":\"https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3428887-16d8ef20-f859-460c-b693-cf8048b16627.webp\",\"proxyWallet\":\"0x44add0da0530c1546cd740faf47ee29f6ee58186\",\"profileCreatedAt\":\"2025-10-04T06:31:13.605712Z\",\"resolvedAt\":\"2026-06-11T13:01:02.383Z\"}",
+      "funding_source": null,
+      "validated_insider": 1,
+      "username": "1386",
+      "profileUrl": "https://polymarket.com/profile/1386",
+      "winRate": 1,
+      "wins": 5,
+      "totalResolved": 5,
+      "consecutiveWins": 5,
+      "totalProfit": 10.30238000000001
+    }
+  ],
+  "accuracy": {
+    "total": 611,
+    "wins": 309,
+    "losses": 302,
+    "pending": 762,
+    "winRate": 0.5057283142389526,
+    "totalProfit": 106890053.87032396,
+    "avgAlertScore": 69.2,
+    "byTier": [
+      {
+        "tier": "critical",
+        "total": 3,
+        "wins": 0,
+        "losses": 3,
+        "winRate": 0
+      },
+      {
+        "tier": "warning",
+        "total": 608,
+        "wins": 309,
+        "losses": 299,
+        "winRate": 0.5082236842105263
+      }
+    ]
+  },
+  "generatedAt": "2026-06-12T00:18:06.960Z"
+}
